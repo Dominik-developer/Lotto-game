@@ -10,8 +10,7 @@
     <meta name="author" content="Dominik Szczepański" />
     <link rel="stylesheet"href="index.css" type="text/css" />
 </head>
-
-
+    
 <body>
 
 <div id="container">
