@@ -21,7 +21,7 @@
  
     <div id="menu">
         <div class="option"><a href="index.php"> Strona główna</a></div>
-        <div class="option"><a href="result.php"> Lotto</a></div>
+        <div class="option"><a href="age.php"> Lotto</a></div>
         <div class="option"><a href="#"> O Autorze</a></div>
         <div class="option"><a href="#"> Podziękowania</a></div>
  
