@@ -8,7 +8,7 @@
     <meta name="keywords" content="lotto" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="author" content="Dominik Szczepański" />
-    <link rel="stylesheet"href="totalizator.css" type="text/css" />
+    <link rel="stylesheet"href="index.css" type="text/css" />
 </head>
 
 
@@ -21,8 +21,8 @@
     </div>
  
     <div id="menu">
-        <div class="option"><a href="totalizator.php"> Strona główna</a></div>
-        <div class="option"><a href="wiek.php"> Lotto</a></div>
+        <div class="option"><a href="index.php"> Strona główna</a></div>
+        <div class="option"><a href="age.php"> Lotto</a></div>
         <div class="option"><a href="#"> O Autorze</a></div>
         <div class="option"><a href="#"> Podziękowania</a></div>
  
@@ -35,7 +35,7 @@
     </div>
 
     <div id="sidebar">
-        <div class="optionL"><a href="wiek.php">Graj </a> </div> 
+        <div class="optionL"><a href="age.php">Graj </a> </div> 
     </div>
 
     <div id="content">
