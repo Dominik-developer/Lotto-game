@@ -7,7 +7,7 @@
     <meta name="keywords" content="lotto" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="author" content="Dominik Szczepański" />
-    <link rel="stylesheet"href="totalizator.css" type="text/css" />
+    <link rel="stylesheet"href="index.css" type="text/css" />
 </head>
 
 
@@ -20,8 +20,8 @@
     </div>
  
     <div id="menu">
-        <div class="option"><a href="totalizator.php"> Strona główna</a></div>
-        <div class="option"><a href="wiek.php"> Lotto</a></div>
+        <div class="option"><a href="index.php"> Strona główna</a></div>
+        <div class="option"><a href="result.php"> Lotto</a></div>
         <div class="option"><a href="#"> O Autorze</a></div>
         <div class="option"><a href="#"> Podziękowania</a></div>
  
@@ -34,7 +34,7 @@
     </div>
 
     <div id="sidebar">
-        <div class="optionL"><a href="wiek.php">Graj </a> </div> 
+        <div class="optionL"><a href="result.php">Graj </a> </div> 
     </div>
 
     <div id="content">
@@ -63,7 +63,7 @@
                 if(!$poprawne_liczby){
                     echo "<h2>Wpisał Pan/pani liczby z innego zakresu niż wymagany</h2>";
                     ?>
-                        <form method="post" action="totalizator2.php">
+                        <form method="post" action="index2.php">
                             <input type="submit" value="Powrót"></form>
                         <?php
                 }
@@ -71,21 +71,18 @@
                 elseif(count($liczby)>6){
                     echo "<h2>Wpisał Pan/pani za dużo liczb</h2>";
                     ?>
-                        <form method="post" action="totalizator2.php">
+                        <form method="post" action="index2.php">
                             <input type="submit" value="Powrót">
                         </form>
                     <?php
                 }elseif(count($liczby)<6){
                     echo "<h2>Wpisanł Pan/Pani za mało liczb</h2>";
                     ?>
-                        <form method="post" action="totalizator2.php">
+                        <form method="post" action="index2.php">
                             <input type="submit" value="Powrót">
                         </form>
                     <?php
                 }
-        
-        
-                
         
                 else{        
                 $liczby=array_map('trim', $liczby);
@@ -94,7 +91,7 @@
                     if(count($liczby_gotowe)!=6){
                         echo "<h2>Wpisał Pan/Pani powtarzające się liczby</h2>";
                         ?>
-                        <form method="post" action="totalizator2.php">
+                        <form method="post" action="index2.php">
                             <input type="submit" value="Powrót">
                         </form>
                     <?php
@@ -153,7 +150,7 @@
                 }
                 echo '<br>';
                    ?>
-                    <form method="post" action="totalizator2.php">
+                    <form method="post" action="index2.php">
                         <input type="submit" value="Zagraj jeszcze raz!">
                     </form>
         </div>
